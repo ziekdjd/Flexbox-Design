@@ -15,6 +15,10 @@
       min-height: 100vh;
     }
 
+    a {
+      text-decoration: none;
+    }
+
     /* =========================
        LAYOUT
     ========================= */
@@ -403,23 +407,11 @@
       align-items: center;
       justify-content: center;
       font-weight: bold;
-      color: white;
+      background-color: transparent;
     }
 
     .github {
-      background: #24292e;
-    }
-
-    .linkedin {
-      background: #0a66c2;
-    }
-
-    .instagram {
-      background: linear-gradient(135deg, #f9ce34, #ee2a7b, #6228d7);
-    }
-
-    .twitter {
-      background: #000;
+      background-color: white;
     }
 
     /* =========================
@@ -507,4 +499,12 @@
       .social {
         flex-basis: 100%;
       }
+    }
+
+    img {
+      height: 35px;
+      width: auto;
+      border-radius: 10px;
+      margin: 0;
+      padding: 0;
     }
